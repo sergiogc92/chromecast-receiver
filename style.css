@@ -1,20 +1,10 @@
-.background {
-  background: center no-repeat url(logo.png);
+body {
+  --playback-logo-image: url('logo.png');
+  --playback-logo-image: url('logo.png'); /* set from the body selector */
 }
-
-.logo {
-  background-image: url(logo.png);
-}
-
-.progressBar {
-  background-color: rgb(23, 25, 65);
-}
-
-.splash {
-  background-image: url(logo.png);
-}
-
-.watermark {
-  background-image: url(logo.png);
-  background-size: 57px 57px;
+cast-media-player {
+  --theme-hue: 100;
+  --progress-color: rgb(0, 255, 0);
+  --splash-image: url('logo.png');
+  --splash-size: cover;
 }
