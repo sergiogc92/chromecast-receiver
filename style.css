@@ -1,6 +1,5 @@
 body {
   --playback-logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png');
-  --playback-logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png'); /* set from the body selector */
 }
 cast-media-player {
   --theme-hue: 100;
