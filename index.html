@@ -8,12 +8,12 @@
   <cast-media-player></cast-media-player>
   <style>
     body {
-      --playback-logo-image: url('http://some/image.png');
+      --playback-logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/8082fa00b24fd0c83eac2756a3d5a0ce5d90b2a9/logo.png');
     }
     cast-media-player {
       --theme-hue: 100;
       --progress-color: rgb(0, 255, 0);
-      --splash-image: url('http://some/image.png');
+      --splash-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/8082fa00b24fd0c83eac2756a3d5a0ce5d90b2a9/logo.png');
     }
   </style>
   <script>
@@ -23,7 +23,7 @@
 
     // Update style using javascript
     let playerElement = document.getElementsByTagName("cast-media-player")[0];
-    playerElement.style.setProperty('--splash-image', 'url("http://some/other/image.png")');
+    playerElement.style.setProperty('--splash-image', 'url("https://github.com/sergiogc92/chromecast-receiver/blob/8082fa00b24fd0c83eac2756a3d5a0ce5d90b2a9/logo.png")');
 
     ...
 
