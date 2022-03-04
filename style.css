@@ -6,5 +6,8 @@ cast-media-player {
   --theme-hue: 100;
   --progress-color: rgb(0, 255, 0);
   --splash-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png');
+  --splash-color: dimgray;
   --splash-size: cover;
+  --background-image: linear-gradient(white, silver);
+  --logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png');
 }
