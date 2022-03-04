@@ -1,10 +1,10 @@
 body {
-  --playback-logo-image: url('logo.png');
-  --playback-logo-image: url('logo.png'); /* set from the body selector */
+  --playback-logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png');
+  --playback-logo-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png'); /* set from the body selector */
 }
 cast-media-player {
   --theme-hue: 100;
   --progress-color: rgb(0, 255, 0);
-  --splash-image: url('logo.png');
+  --splash-image: url('https://github.com/sergiogc92/chromecast-receiver/blob/main/logo.png');
   --splash-size: cover;
 }
